@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+::before,
+::after,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+.container-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    flex-wrap: wrap;
+}
+
+.form-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.title-login{
+    margin-bottom: 2rem;
+    font-size: 35px;
+    color: #fff;
+}
+
+span{
+    color: rgb(33, 96, 150);
+}
+
+h1{
+font-size: 55px;
+color: #fff;
+}
+
+textarea{
+    resize: none;
+    border-radius: 8px;
+    font-size:16px
+}
+
+input[type='text'],
+input[type='email']{
+    border: thin solid #dedede;
+    border-radius: 0.25rem;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    outline: none;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1;
+    background-color: transparent;
+    color: #fff;
+}
+
+.submit-closure{
+    margin-top: 1.5rem;
+    padding: 4px 30px;
+    border: none;
+    border-radius:40px;
+    font-size: 16px;
+    background-color: rgb(4, 114, 210);
+    color: #fff;
+    cursor: pointer;
+}
+
+p{
+    color: #fff;
+}
